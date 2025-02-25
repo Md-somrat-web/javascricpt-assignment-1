@@ -1,4 +1,4 @@
-function isBestFriend(f1, f2) {
+function isBestFriend() {
   if (
     typeof f1 === "object" &&
     typeof f2 === "object" &&
@@ -19,4 +19,3 @@ const data1 = { name: "hashem", roll: 1, bestFriend: 2 };
 const data2 = { name: "kashem", roll: 2, bestFriend: 1 };
 
 const result = isBestFriend(data1, data2);
-console.log(result);

@@ -1,4 +1,4 @@
-function cashOut(money) {
+function cashOut() {
   if (typeof money === "number" && money > 0) {
     const cashOutCharge = (money * 1.75) / 100;
     return cashOutCharge;

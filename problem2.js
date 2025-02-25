@@ -1,4 +1,4 @@
-function validEmail(email) {
+function validEmail() {
   const chars = ".-_+@";
 
   if (typeof email === "string") {
@@ -20,5 +20,3 @@ function validEmail(email) {
   }
 }
 const result = validEmail("ferdous@gmail.com");
-
-console.log(result);

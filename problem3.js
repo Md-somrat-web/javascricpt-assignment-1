@@ -1,4 +1,4 @@
-function electionResult(votes) {
+function electionResult() {
   if (Array.isArray(votes) === true) {
     let banana = [];
     let mango = [];
@@ -24,5 +24,3 @@ function electionResult(votes) {
 }
 
 const result = electionResult(["mango", "banana", "mango", "banana", "mango"]);
-
-console.log(result);

@@ -1,4 +1,4 @@
-function calculateWatchTime(times) {
+function calculateWatchTime() {
   let total = 0;
   for (let i of times) {
     if (typeof i !== "number") {
@@ -18,4 +18,3 @@ function calculateWatchTime(times) {
   return time;
 }
 const result = calculateWatchTime([100, 99, 119, 300]);
-console.log(result);

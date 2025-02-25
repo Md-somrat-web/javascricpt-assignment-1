@@ -23,4 +23,4 @@ function electionResult() {
   }
 }
 
-const result = electionResult(["mango", "banana", "mango", "banana", "mango"]);
+

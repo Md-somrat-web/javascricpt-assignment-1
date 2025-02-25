@@ -17,4 +17,3 @@ function calculateWatchTime() {
   };
   return time;
 }
-const result = calculateWatchTime([100, 99, 119, 300]);

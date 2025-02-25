@@ -6,4 +6,4 @@ function cashOut() {
     return "Invalid";
   }
 }
-const result = cashOut(2000);
+

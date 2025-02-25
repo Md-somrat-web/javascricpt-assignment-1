@@ -19,4 +19,4 @@ function validEmail() {
     return "Invalid";
   }
 }
-const result = validEmail("ferdous@gmail.com");
+

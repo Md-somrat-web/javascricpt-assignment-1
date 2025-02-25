@@ -14,8 +14,3 @@ function isBestFriend() {
     return "Invalid";
   }
 }
-
-const data1 = { name: "hashem", roll: 1, bestFriend: 2 };
-const data2 = { name: "kashem", roll: 2, bestFriend: 1 };
-
-

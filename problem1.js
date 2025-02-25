@@ -6,4 +6,3 @@ function cashOut() {
     return "Invalid";
   }
 }
-
